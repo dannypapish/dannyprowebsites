@@ -1,80 +1,80 @@
 video {
-   width: 100%;
-   height: 600px;
-   position: absolute;
-   object-fit: cover;
-   transition: all 150ms linear;
-   z-index: 10;
-   border:0;
-   border-color: transparent;
-   margin:0;
-   padding:0;
-	
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    object-fit: cover;
+    transition: all 150ms linear;
+    z-index: 10;
+    border: 0;
+    border-color: transparent;
+    margin: 0;
+    padding: 0;
+
 }
 
 .box1 {
-   opacity: 0;
-   border:0;
-   border-color: transparent;
-   margin:0;
-   padding:0;
+    opacity: 0;
+    border: 0;
+    border-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
-.box2 { 
-   opacity: 0;
-   border:0;
-   border-color: transparent;
-   margin:0;
-   padding:0;
+.box2 {
+    opacity: 0;
+    border: 0;
+    border-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .box3 {
-  opacity: 0;
-  border:0;
-  border-color: transparent;
-  margin:0;
-  padding:0;
+    opacity: 0;
+    border: 0;
+    border-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .box4 {
-  opacity:1;
-  border:0;
-  border-color: transparent;
-  margin:0;
-  padding:0;
+    opacity: 1;
+    border: 0;
+    border-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-   width: 100%;
-   height: 600px;
-   position:relative;
-   margin:0;
-   overflow:hidden;
-   justify-content: center;
-   align-items: center;
-   border:0 solid transparent;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border: 0 solid transparent;
 }
 
 .elementor-widget-container {
-    border:0;
+    border: 0;
     border-color: transparent;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 
-	
+
 .pagination {
     position: absolute;
-    top:64.5%;
-    left:35%;
+    top: 64.5%;
+    left: 35%;
     z-index: 1000;
-    overflow:hidden;
+    overflow: hidden;
     vertical-align: middle;
-    text-align:center;
-    margin-right:0;
-    margin-left:0;
-    width:30%;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    width: 30%;
 
 }
 
@@ -85,75 +85,83 @@ video {
     display: inline-block;
     margin: 0 7px;
     cursor: pointer;
-  
+
 }
 
 .hhh {
-    color:#fff;
+    color: #fff;
     font-family: 'racing sans one';
-    margin-right:10px;
-    margin-left:10px;
-    overflow:hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
     font-size: 24px;
 
 }
 
 .wrap {
-    position:absolute;
-    top:40%;
-    left:25%;
-    z-index :1000;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    z-index: 1000;
     background-color: black;
-    opacity:0.9;
-    z-index :1000;
+    opacity: 0.9;
+    z-index: 1000;
     background-color: black;
-    opacity:0.9;
+    opacity: 0.9;
     animation: pulse 2s infinite;
-    margin:0;
-    padding:0;
-    text-align:center;
-    width:50%;
-    border:0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+    border: 0;
     border-color: transparent;
-    margin:0;
+    margin: 0;
 
 }
 
-.pagg1,.pagg2,.pagg3,.paag4 {
+.pagg1,
+.pagg2,
+.pagg3,
+.paag4 {
     background: #1DC1E6;
 }
 
 #up-arrow {
-    display:none;
+    display: none;
 }
+
 #phone-slider {
-    display:none;
+    display: none;
 }
 
 @media(max-width:788px) {
     .hhh {
-       left: 22%;
+        left: 22%;
     }
+
     .want-text {
-        margin-top:10%;
+        margin-top: 10%;
     }
 }
 
 @media(max-width:788px) {
     .want-text {
-        margin-top:15%;
-     }
+        margin-top: 15%;
+    }
 }
+
 @media(max-width:560px) {
     #video-sec {
-        display:none;
+        display: none;
     }
+
     #up-arrow {
-        display:block;
+        display: block;
     }
+
     #phone-slider {
-        display:block;
-        width:100%;
-        height:100%;
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 }
