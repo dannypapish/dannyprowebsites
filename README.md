@@ -27,7 +27,7 @@ that present a glance view of different websites one after another, inside of a 
 right of the "Want to appear here as well?" headline, below the "about" section. This was, again, quite challenging since wordpress
 and elementor don't offer this feature by default. moreover, a lot of times the JavaScript code of the video feature is interfering with the elementor base code,
 which can create errors that can lead to crashes and malfunctioning. Therefore, it is important to be very precise in this kind of coding.
-The whole feature was done using HTML and JavaScript and CSS, with almost no use of Elementor other than initial framing and positioning.  
+The whole feature was done using HTML, JavaScript and CSS, with almost no use of Elementor other than initial framing and positioning.  
 
 First, I've created a section. The first element of the section is a div with an "h3" element titled: "Hover to watch video display."
 The div is surrounded by a black-transparent background which bounces in and out slowly, grabbing the attention of the user. 
