@@ -131,7 +131,6 @@
                   $('body').addClass('open opening')
                   },400)
             
-            
         });
     
     }
