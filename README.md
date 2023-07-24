@@ -32,18 +32,19 @@ The whole feature was done using HTML, JavaScript and CSS, with almost no use of
 First, I've created a section. The first element of the section is a div with an "h3" element titled: "Hover to watch video display."
 The div is surrounded by a black-transparent background which bounces in and out slowly, grabbing the attention of the user. 
 Once the user hovers the mouse cursor over the frame, the div with the text dissappears and the slideshow begins. 
-If the user is moving the cursor out of the section area, the video freezes. Once the cursor is moved back to the area, the slides continue to run.  
+If the user is moving the cursor out of the section area, the video freezes. Once the cursor is moved back inside the frame, the slides continue to run from
+the point it froze.  
 
 In the bottom of the mockup there is a "pagination" div, which is basically 4 bullet points that allow the user to go over the videos. 
 Each point is linked to a different video, and once the user is clicking on a point, the mockup display changes to the corresponding video.   
-Next are the video divs: initially, three videos has a "0" opacity to keep them invisible, and only one has a "1" opacity and will initially be displayed. 
+Next are the video divs: initially, three videos have a "0" opacity to keep them invisible, and only one has a "1" opacity and will initially be displayed. 
 Each div has the "muted" property, to ensure the video won't start playing until the user will hover over the section. When that happens,
 a propery called 'onmouseover', which is the second property of each video, triggers a fucntion called play(): a function that plays the video. 
 The third property of each video is "onmouseout()=this.stop()" which stops the video once the mouse cursor is out of the section. 
 Each video also has a class and an id for more flexibility and options to menuver their display.   
 
 Next are the "onended" functions which are in charge of the loop - when one video is finished, the next one will play creating an infinite loop
-that will as soon as the user moves the mouse cursor out of the section.   
+that will terminate as soon as the user moves the mouse cursor out of the section.   
 
 The last functions are p1,p2,p3 and p4 that represent the display of the four videos - when one needs to be played, his opacity becomes "1" and he will be visible, 
 while the rest will get a "0" opacity. The videos were created using "kapwing", which is an excellent software that allows you to efficiently
