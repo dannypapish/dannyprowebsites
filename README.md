@@ -49,4 +49,36 @@ that will terminate as soon as the user moves the mouse cursor out of the sectio
 The last functions are p1,p2,p3 and p4 that represent the display of the four videos - when one needs to be played, his opacity becomes "1" and he will be visible, 
 while the rest will get a "0" opacity. The videos were created using "kapwing", which is an excellent software that allows you to efficiently
 capture screen recordings along with advanced tools for editing the video. The slider.js code goes into the HTML box, while the "slider.css" goes into
-the "Custom CSS" tab of the same box.
+the "Custom CSS" tab of the same box.  
+
+**For swiperSlider:** located in http://nadlan1.org/assets/ (any of the assets in the display). The website is a real estate site which allows the user to easily upload new assets and edit their info (headline,description,photo gallery etc.) that are available for rent or sale, using the "custom fields" CMS. One of the sections in each page is an interactive slider, where the user can upload asset-related photos which will loop infinitely until a user-interaction. The user also has the ability to control the slides by using the two arrows in the right and left side of the frame, and the pagination buttons in the bottom. It was inserted via the 'Wordpress' plugin 'XYZ PHP Code Snippets'. as for the custom code:  
+
+The body section contains the slideshow structure:
+
+A div element with a class of "grid-container" is used to create a container for the slideshow.
+Inside the "grid-container" div, there is another div with a class of "swiper-container". This is the main container for the Swiper slider.
+Inside the "swiper-container" div, there is a div with a class of "swiper-wrapper". This will contain the individual slides/images.  
+
+The PHP Code:  
+
+- using a loop to iterate over images from the field "gallery1" which is fetched using the get_field function.
+- For each image in the "gallery1" array, it creates an img element with a class of "swiper-slide" and sets the image source using the url property of the image array.
+
+The JavaScript code:  
+
+- using predefined properties of the "cloudfare" custom library and gives the developer an option to define them as he wishes.
+- initializes the Swiper slider.
+- selects the "swiper-container" element to create the slider inside it.
+- The loop: true option makes the slider loop continuously.
+- centeredSlides: true centers the active slide.
+- slidesPerView: 1 means it displays one slide at a time.
+- speed: 500 sets the speed of the slide transition to 500ms.
+ - The autoplay option enables automatic slide switching with a delay of 5000ms (5 seconds). It will stop sliding when the user interacts with the slider (disableOnInteraction: true).
+- The pagination option enables pagination with clickable dots, and it specifies the element with the class "swiper-pagination" as the pagination container.
+ -The navigation option enables navigation buttons (previous and next) and specifies the elements with the classes "swiper-button-prev" and "swiper-button-next" as the buttons.
+
+
+
+
+
+
