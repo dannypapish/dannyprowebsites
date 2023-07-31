@@ -2,16 +2,16 @@
 This repository contains JavaScript, JQuery, CSS and PHP code snippets along with general tips and instructions which I used to enhance the appereance
 of my projects and create a more interactive and user-friendly display.  
 
-**For sidebar**: I built this site with wordpress and elementor, and the idea was to create an interactive sidebar which will expand horizontally once
-the user clicks or hovers on the toggle button, and will be minimized once the user scrolls or clicks anywhere else on the screen. On mobile view,
+**For sidebar**: Location: the sidebar in https://dannyprowebsites.com. I built this site with wordpress and elementor, and the idea was to create an interactive sidebar which will expand horizontally once
+the user clicks or hovers the toggle button, and will be minimized once the user scrolls or clicks anywhere else on the screen. On mobile view,
 the sidebar is replaced with a top header.
-This was quite challenging since Wordpress and elementor generally have low integration with that kind of complexity, so I had to implement a few workarounds. 
+This was quite challenging since Wordpress and elementor generally have low integration with this kind of complexity, so I had to implement a few workarounds. 
 For starters, I created an Elementor section which is divided into five columns:  
 
 - a logo image with the class: '.logo'.  
--  a toggle icon  with a class '.sidbar-toggle' which is initially hidden (opacity:0) and with position:absolute.
+-  a toggle icon  with a class '.sidbar-toggle' which is initially hidden (opacity:0, initially when the webpage is loaded, the sidebar is expanded) and with position:absolute.
 - an icon-list with a class of '.navigation' which displays all the website's menu-links.
-- an HTML box which contains the JavaScript code.
+- a hidden HTML box which contains the JavaScript code.
 - a bottom section that contains my picture and introductory details with a class of '.user'.
 
 In addition, I created another section and container which are invisible in the large device view, but will become visible on mobile view:
@@ -22,9 +22,9 @@ In addition, I created another section and container which are invisible in the 
 After initially positioning all the elements in the desired spots using the elemntor tools,
 I inserted the code in sidebar.js into the HTML box in the first section, and the code in sidbar.css in the "Custom CSS" tab of the main section.  
 
-**For slider**: The idea was to create an iteractive display using a "mockup" which is basically a nice way to display projects using video slides
-that present a glance view of different websites one after another, inside of a tv-shaped frame. This section located in the middle of the main page, to the
-right of the "Want to appear here as well?" headline, below the "about" section. This was, again, quite challenging since wordpress
+**For slider**: Location: in https://dannyprowebsites.com located, middle of the main page, to the
+right of the "Want to appear here as well?" headline, below the "about" section. The idea was to create an iteractive display using a "mockup" which is basically a nice way to display projects using video slides
+that present a glance view of different websites one after another, inside of a tv-shaped frame. This was, again, quite challenging since wordpress
 and elementor don't offer this feature by default. moreover, a lot of times the JavaScript code of the video feature is interfering with the elementor base code,
 which can create errors that can lead to crashes and malfunctioning. Therefore, it is important to be very precise in this kind of coding.
 The whole feature was done using HTML, JavaScript and CSS, with almost no use of Elementor other than initial framing and positioning.  
