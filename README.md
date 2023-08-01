@@ -22,9 +22,9 @@ In addition, I created another section and container which are invisible in the 
 After initially positioning all the elements in the desired spots using the elemntor tools,
 I inserted the code in sidebar.js into the HTML box in the first section, and the code in sidbar.css in the "Custom CSS" tab of the main section.  
 
-**For slider**: Location: in https://dannyprowebsites.com located, middle of the main page, to the
-right of the "Want to appear here as well?" headline, below the "about" section. The idea was to create an iteractive display using a "mockup" which is basically a nice way to display projects using video slides
-that present a glance view of different websites one after another, inside of a tv-shaped frame. This was, again, quite challenging since wordpress
+**For slider**: Location: in https://dannyprowebsites.com, middle of the main page, to the
+right of the "Want to appear here as well?" headline, below the "about" section. The idea was to create an iteractive display using a "mockup" which is basically a nice way to display my different projects using video slides
+that present a glance video views of different websites one after another, inside of a tv-shaped frame. This was, again, quite challenging since wordpress
 and elementor don't offer this feature by default. moreover, a lot of times the JavaScript code of the video feature is interfering with the elementor base code,
 which can create errors that can lead to crashes and malfunctioning. Therefore, it is important to be very precise in this kind of coding.
 The whole feature was done using HTML, JavaScript and CSS, with almost no use of Elementor other than initial framing and positioning.  
