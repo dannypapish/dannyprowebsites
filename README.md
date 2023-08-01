@@ -53,7 +53,7 @@ the "Custom CSS" tab of the same box.
 
 *On mobile display, there is a different setup - same mockup but with images instead of videos. This is sense Wordpress's security settings are not allowing videos to play on mobile view. 
 
-**For swiperSlider:** located in http://nadlan1.org/assets/ (any of the assets in the display). The website is a real estate site which allows the admin to easily upload new assets and edit their info (headline, description, photo gallery etc.) that are available for rent or sale, using the "custom fields" CMS. One of the sections in each asset page is an interactive slider, where the admin can upload asset-related photos which will loop infinitely until a user-interaction. The user also has the ability to control the slides by using the two arrows in the right and left side of the frame, and the pagination buttons in the bottom. Was made with a combination of PHP, JavaScript, CSS, the "Cloudfate CDN" library and was inserted via the 'Wordpress' plugin 'XYZ PHP Code Snippets'. as for the custom code:  
+**For swiperSlider:** located in http://nadlan1.org/assets/ (any of the assets in the display). The website is a real estate site which allows the admin to easily upload new assets and edit their info (headline, description, photo gallery etc.) that are available for rent or sale, using the "custom fields" CMS. One of the sections in each asset page is an interactive slider, where the admin can upload asset-related photos which will loop infinitely until a user-interaction. The user also has the ability to control the slides by using the two arrows in the right and left side of the frame, and the pagination buttons in the bottom. Was made with a combination of PHP, JavaScript, CSS, the "Cloudfate CDN" library and was inserted via the 'Wordpress' plugin 'XYZ PHP Code Snippets' in the designated elemntor section. as for the custom code:  
 
 The body section contains the slideshow structure:
 
@@ -64,7 +64,7 @@ The body section contains the slideshow structure:
 The PHP Code:  
 
 - using a loop to iterate over images from the field "gallery1" which is fetched using the get_field function.
-- For each image in the "gallery1" array, it creates an img element with a class of "swiper-slide" and sets the image source using the url property of the image array.
+- For each image in the corresponding "gallery" array, it creates an img element with a class of "swiper-slide" and sets the image source using the url property of the image array.
 
 The JavaScript code:  
 
