@@ -59,7 +59,7 @@ The body section contains the slideshow structure:
 
 - A div element with a class of "grid-container" is used to create a container for the slideshow.
 - Inside the "grid-container" div, there is another div with a class of "swiper-container". This is the main container for the Swiper slider.
-- Inside the "swiper-container" div, there is a div with a class of "swiper-wrapper". This will contain the individual slides/images.  
+- Inside the "swiper-container" div, there is a div with a class of "swiper-wrapper". It conatains the individual slides/images.  
 
 The PHP Code:  
 
