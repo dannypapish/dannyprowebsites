@@ -48,10 +48,10 @@ that will terminate as soon as the user moves the mouse cursor out of the sectio
 
 The last functions are p1,p2,p3 and p4 that represent the display of the four videos - when one needs to be played, its opacity becomes "1" and it will be visible, 
 while the rest will get a "0" opacity. The videos were created using "kapwing", which is an excellent software that allows you to efficiently
-capture screen recordings along with advanced tools for editing the video. The slider.js code goes into the HTML box, while the "slider.css" goes into
+capture screen recordings along with advanced tools for editing the video. The slider.js code goes into the HTML box, while the "slider.css" code goes into
 the "Custom CSS" tab of the same box.  
 
-*On mobile display, there is a different setup - same mockup but with images instead of videos. This is sense Wordpress's security settings are not allowing videos to play on mobile view. 
+*On mobile display, there is a different setup - same mockup but with images instead of videos. This is because Wordpress's security settings are not allowing videos to play on mobile view. 
 
 **For swiperSlider:** located in http://nadlan1.org/assets/ (any of the assets in the display). The website is a real estate site which allows the admin to easily upload new assets and edit their info (headline, description, photo gallery etc.) that are available for rent or sale, using the "custom fields" CMS. One of the sections in each asset page is an interactive slider, where the admin can upload asset-related photos which will loop infinitely until a user-interaction. The user also has the ability to control the slides by using the two arrows in the right and left side of the frame, and the pagination buttons in the bottom. Was made with a combination of PHP, JavaScript, CSS, the "Cloudfate CDN" library and was inserted via the 'Wordpress' plugin 'XYZ PHP Code Snippets' in the designated elemntor section. as for the custom code:  
 
