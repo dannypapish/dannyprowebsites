@@ -63,7 +63,7 @@ The body section contains the slideshow structure:
 
 The PHP Code:  
 
-- using a loop to iterate over images from the field "gallery1" which is fetched using the get_field function.
+- Using a loop to iterate over images from the field "gallery1" which is fetched using the get_field function.
 - For each image in the corresponding "gallery" array, it creates an img element with a class of "swiper-slide" and sets the image source using the url property of the image array.
 
 The JavaScript code:  
