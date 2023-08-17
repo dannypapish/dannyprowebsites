@@ -29,7 +29,7 @@ and elementor don't offer this feature by default. moreover, a lot of times the 
 which can create errors that can lead to crashes and malfunctioning. Therefore, it is important to be very precise in this kind of coding.
 The whole feature was done using HTML, JavaScript and CSS, with almost no use of Elementor other than initial framing and positioning.  
 
-First, I created an elementor section which represents the designated area for the mockup. Inside I placed a div which uses as a wrapper for the mockup frame with the videos inside (the whole setup was premade using a media editing software called "kapwing"). The first element inside the div is an "h3" element titled: "Hover to watch video display"
+First, I created an elementor section which represents the designated area for the mockup. Inside I placed a div which is used as a wrapper for the mockup frame with the videos inside (the whole setup was premade using a media editing software called "kapwing"). The first element inside the div is an "h3" element titled: "Hover to watch video display"
 which is surrounded by a black-transparent background that bounces in and out slowly, grabbing the attention of the user. 
 Once the user hovers the mouse cursor over the frame, the div with the text dissappears and the slideshow begins. 
 If the user is moving the cursor out of the section area, the video freezes. Once the cursor is moved back inside the frame, the video continues to run from
