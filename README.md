@@ -68,8 +68,8 @@ The PHP Code:
 
 The JavaScript code:  
 
-- initializes the Swiper slider using predefined properties of the "cloudfare" custom library and gives the developer an option to define them as he wishes.
-- selects the "swiper-container" element to create the slider inside it.
+- Initializes the Swiper slider using predefined properties of the "cloudfare" custom library and gives the developer an option to define them as he wishes.
+- Selects the "swiper-container" element to create the slider inside it.
 - The 'loop: true' option makes the slider loop continuously.
 - 'centeredSlides: true' centers the active slide.
 - 'slidesPerView: 1' means it displays one slide at a time.
