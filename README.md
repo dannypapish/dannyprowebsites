@@ -43,10 +43,10 @@ a property called 'onmouseover', which is the second property of each video, tri
 The third property of each video is "onmouseout()=this.stop()" which stops the video once the mouse cursor is out of the section. 
 Each video also has a class and an id for more flexibility and options to menuver their display.   
 
-Next are the "onended" functions which are in charge of the loop - when one video is finished, the next one will play creating an infinite loop
+Next are the "onended" functions which are in charge of the loop - when one video is finished, the next one will play, creating an infinite loop
 that will terminate as soon as the user moves the mouse cursor out of the section. In addition, it marks the associated pagination bullet by changing its color to "black" differentiating it from the other bullets.  
 
-The last functions are p1,p2,p3 and p4 that represent the display of the four videos - when one needs to be played, his opacity becomes "1" and he will be visible, 
+The last functions are p1,p2,p3 and p4 that represent the display of the four videos - when one needs to be played, its opacity becomes "1" and it will be visible, 
 while the rest will get a "0" opacity. The videos were created using "kapwing", which is an excellent software that allows you to efficiently
 capture screen recordings along with advanced tools for editing the video. The slider.js code goes into the HTML box, while the "slider.css" goes into
 the "Custom CSS" tab of the same box.  
